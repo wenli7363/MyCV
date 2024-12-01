@@ -11,7 +11,7 @@
 = Chen Jiye
 
 cjy0415\@qq.com |
-#link("https://github.com/wenli7363")[github.com/wenli7363] | #link("https://www.cnblogs.com/jye159X")[blog: cnblogs.com/jye159X]
+#link("https://github.com/wenli7363")[github.com/wenli7363] | #link("wenli7363.github.io")[blog: cnblogs.com/jye159X]
 
 
 == Education
