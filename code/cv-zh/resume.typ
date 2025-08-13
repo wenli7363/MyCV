@@ -63,11 +63,11 @@
       content: "cjy0415@qq.com",
       link: "mailto:cjy0415@qq.com",
     ),
-    (
-      icon: fa-github,
-      content: "github.com/wenli7363",
-      link: "https://github.com/wenli7363",
-    ),
+    // (
+    //   icon: fa-github,
+    //   content: "github.com/wenli7363",
+    //   link: "https://github.com/wenli7363",
+    // ),
     (
       icon: fa-github,
       content: "github.com/wenli7363",
@@ -136,7 +136,7 @@
 - 熟悉多线程，多进程，协程异步编程，熟悉Linux环境下C++编程
 - 熟悉Linux操作系统和Windows操作系统，能够编写shell、python脚本
 - 了解Socket网络编程，熟悉计算机网络相关知识，如TCP、UDP、HTTP协议
-- 掌握C/C++开发工具链，使用过gdb, perf, valgrind等工具，有一定调优经验
+- 掌握C/C++开发工具链，使用过gdb, perf, valgrind等工具，有一定代码调优经验
 - 熟悉IO多路复用技术，熟悉select、poll、epoll的原理
 - 熟悉机器学习常用算法，了解深度学习技术，熟悉pytorch框架
 - 熟悉Mysql数据库基本使用，有过web开发经验
@@ -161,10 +161,15 @@
 )
 
 
-工作内容：开发与维护SafeParamTool参数配置上位机软件，技术栈：C++, QT6
+*工作内容*：开发与维护SafeParamTool参数配置上位机软件，技术栈：C++, QT6
 
-具体内容：
+*具体内容*：
 
+- 该软件主要用于激光雷达设备的参数配置、数据可视化和实时监控。适用于工业机器人（如AGV）场景中的安全区域监控配置
+- 主要实现了雷达设备连接、实时状态监控、用户管理和权限控制功能
+- 基于OpenCASCADE引擎实现点云数据的3D可视化渲染
+- 采用Pimpl设计模式重构软件UI界面，利用MVC设计解耦数据与UI界面
+- 同时负责软件的测试和简单的bug修复，该软件最终通过德国莱茵测试
 
 == #fa-code 项目经历
 
@@ -253,4 +258,6 @@ TinyCoro是一个Linux系统环境下以C++20协程技术与io_uring技术相结
 
 == #fa-building-columns 技能证书
 
-- 雅思6.5, CET4(600), CET6(485)
+- 雅思6.5
+- CET4(600)
+- CET6(485)
